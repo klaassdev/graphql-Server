@@ -1,23 +1,17 @@
 {
-  "name": "graphql-Server",
+  "name": "graphql-server",
   "version": "1.0.0",
   "description": "Développement d'un serveur graphQL avec MongoDB et Express JS, Apollo Server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://michelo243:git-P455w0r2drc@github.com/klaassdev/graphql-Server.git"
+    "start": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/klaassdev/graphql-Server/issues"
-  },
-  "homepage": "https://github.com/klaassdev/graphql-Server#readme",
   "dependencies": {
-    "jscs": "^3.0.7"
+    "apollo-server": "^2.16.0",
+    "mongoose": "^5.9.25",
+    "nodemon": "^2.0.4"
   }
 }
