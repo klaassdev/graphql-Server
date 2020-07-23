@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/klaassdev/graphql-Server/issues"
   },
-  "homepage": "https://github.com/klaassdev/graphql-Server#readme"
+  "homepage": "https://github.com/klaassdev/graphql-Server#readme",
+  "dependencies": {
+    "jscs": "^3.0.7"
+  }
 }
